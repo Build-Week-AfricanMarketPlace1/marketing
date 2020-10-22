@@ -1,0 +1,444 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*Start the Index Html Styling*/
+	    
+	html {
+		box-sizing: border-box;
+	}
+
+	*, *:before, *:after {
+		box-sizing: inherit;
+	}
+
+	body {
+        background-image: url("img/sergey-pesterev-DWXR-nAbxCk-unsplash.jpg");
+        background-repeat: no-repeat;
+        background-size: 100% 120%;
+    }
+    
+    html {
+		font-size: 16pt;
+	}       
+        
+	body, input, select, textarea {
+		color: #000000;
+		font-family: "Source Sans Pro", sans-serif;
+		font-weight: 300;
+		font-size: 2rem;
+		line-height: 1.65;
+    }
+
+    
+    /*This is For ALL FORMS*/
+label {
+		color: #ffffff;
+		display: block;
+		font-size: 0.8rem;
+		font-weight: 300;
+		letter-spacing: 0.2rem;
+		line-height: 1.5;
+		margin: 0 0 1rem 0;
+		text-transform: uppercase;
+    }
+     /*This is For ALL FORMS*/
+
+    #header > * {    
+    transition: opacity 0.325s ease-in-out;
+    position: relative;
+    margin-top: 3.5rem;
+}
+    #header {    
+    display: flex;    
+    flex-direction: column;    
+    align-items: center;
+    max-width: 100%;
+    text-align: center;
+    margin-top: 200px;
+}
+#header .content {
+    border-style: solid;
+    border-color:white;
+    border-top-width: 3px;
+    border-bottom-width: 3px;
+    max-width: 100%;
+  
+}
+#header .content .inner {   
+    transition: max-height 0.75s ease, padding 0.75s ease, opacity 0.325s ease-in-out;
+    transition-delay: 0.25s;
+    padding: 6rem 2rem;
+    max-height: 70rem;
+    overflow: hidden;
+}
+#header h1{
+    font-size: 2rem;
+    color: #000000;
+
+}
+#header p{
+    color: #000000;
+}
+#header nav ul {    
+    display: flex;
+    margin-bottom: 0;
+    list-style: none;
+    padding-left: 0;
+    border: solid 3px rgb(255, 255, 255);
+    border-radius: 4px;
+    color: #ffffff;    
+}
+#header nav ul li a {
+    display: block;
+    min-width: 7.5rem;
+    height: 2.75rem;
+    line-height: 2.75rem;
+    padding: 0 1.25rem 0 1.45rem;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    font-size: 0.8rem;
+    border-bottom: 0;}
+
+#header nav ul li {
+    padding-left: 0;
+    border-left: solid 3px rgb(250, 250, 250);
+    background-color:gray;
+}
+#header nav ul li:first-child {
+    border-left: 0;    
+}
+#header nav.use-middle ul li.is-middle {
+    border-left: 0;
+  }
+#header a{
+    color: white;
+}   
+
+
+/*Start the Login Page Styling*/
+.loginPage {
+  border: 3px solid #3f3f3f;
+  align-content: center;
+  background-color: #3f3f3f;    
+}
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid black;
+  box-sizing: border-box;
+  color: #000000;
+}
+.btmContainer {
+  padding: 16px;  
+}
+.loginContainer{
+    padding:16px;
+}
+label.pass{
+    color:#ffffff;
+}
+label.user{
+    color: #ffffff;
+}
+span.psw {
+  float: right;
+   
+  color: #ffffff;
+}
+.loginCancel{
+  color: white;
+  text-decoration: none;
+}
+
+/*Start the Contact Page Styling*/
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+input[type=submit] {
+  background-color:gray;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+input[type=submit]:hover {
+  background-color: #474747;
+}
+img{
+  width:50%;
+  margin-top: 30px;
+  
+  float: left;
+  height: 657px;
+}
+.contact{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size:65px;
+}
+.container {
+  border-radius: 5px; 
+  height: 100%;
+  padding: 10px;
+  color: #000000;
+}
+.btmContainer{
+  background-color: gray;
+}
+.cancel {
+  background-color: gray;
+  color: white;
+  padding: 20px 20px;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  float: right;
+}
+ .cancel:hover {
+  background-color: #474747;
+}
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+.columnImg {
+  float: left;
+  width: 50%;
+   
+  border: 3px solid white;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/*Start @media controls*/
+@media screen and (max-width: 1024px) {
+  html{
+    font-size: 16px;
+  }
+	body {
+        background-image: url("img/sergey-pesterev-DWXR-nAbxCk-unsplash.jpg");
+        background-repeat: no-repeat;
+        background-size: 100% 150%;        
+    }  
+    
+   #header .content {
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    border-top-width: 3px;
+    border-bottom-width: 3px;  
+  
+}
+#header .content .inner {   
+    transition: max-height 0.75s ease, padding 0.75s ease, opacity 0.325s ease-in-out;
+    transition-delay: 0.25s;
+    padding: 3rem 2rem;
+    max-height: 10rem;
+    
+}
+#header h1{
+    font-size: 1rem;
+    text-align: center;
+    color: #000000;
+
+}
+#header p{
+    color: #000000;
+    font-size: 1rem;
+}
+#header nav ul {    
+    display: flex;   
+    list-style: none;    
+    border: solid 3px rgb(255, 255, 255);
+    border-radius: 4px;
+    color: #ffffff;    
+}
+#header nav ul li a {
+    display: block;
+    min-width: 7.5rem;
+    height: 2.75rem;
+    line-height: 2.75rem;
+    padding: 0 1.25rem 0 1.45rem;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    font-size: 0.8rem;
+    border-bottom: 0;}
+    
+
+#header nav ul li {
+    text-align: center;
+    border-left: solid 3px rgb(250, 250, 250);
+    background-color: #000000;
+}
+
+#header a{
+    color: white;
+}   
+#header nav.use-middle{
+  margin-left: -25px;
+  margin-top: 200px;
+}
+ 
+/* Contact us*/
+
+.Contact{
+  margin-top: -40px;
+  margin-bottom: -25px;
+}
+.cancel {
+ padding: 20px 422px;  
+ background-color: #3f3f3f;
+}
+
+.column{
+  height:700px;
+  }
+
+ .column, input[type=submit] {
+    width: 100%;
+    height: fit-content;
+    background-color: #3f3f3f;
+    margin-top: 0;
+  }
+img{
+  height:50%;
+  width:1004px;
+}
+
+/*Login*/
+.loginPage {
+  border: 3px solid #3f3f3f;
+  align-content: center;
+  background-color: #3f3f3f;    
+}
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 1px ;
+  margin: 0px 0;
+  display: inline-block;
+  border: 1px solid black;
+  box-sizing: border-box;
+  color: #000000;
+}
+.btmContainer {
+  padding: 16px;  
+}
+.loginContainer{
+    padding:16px;
+}
+label.pass{
+    color:#ffffff;
+}
+label.user{
+    color: #ffffff;
+}
+span.psw {
+  float: right;
+  padding-top: 0px;  
+}
+.loginCancel{
+  color: white;
+  text-decoration: none;
+}
+
+}
+
+
+@media screen and (max-width: 800px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+}
+.col-25, .col-75,a.cancel{
+   padding: 20px 300px;  
+ 
+}
+span.psw {
+  float: right;
+  padding-top: 0px;  
+  color: #ffffff;
+}
+img{
+  width:780px;
+}
+}
+
+
+@media screen and (max-width: 500px) {
+  /*Index*/
+  #header nav.use-middle{
+  margin-left: 0px;
+}
+  
+  /*Contact*/
+  col-25, .col-75,a.cancel{
+   padding: 20px 180px;  
+ 
+}
+img{
+  width: 480px;
+}
+span.psw {
+  
+  padding-top: 0px;  
+  
+}
+}
+
