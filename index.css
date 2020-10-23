@@ -58,9 +58,11 @@ table {
 	}
 
 	body {
-        background-image: url("img/sergey-pesterev-DWXR-nAbxCk-unsplash.jpg");
-        background-repeat: no-repeat;
-        background-size: 100% 120%;
+     
+    background: rgb(210,167,146);
+    background: radial-gradient(circle, rgba(210,167,146,1) 0%, rgba(67,73,80,1) 100%);
+   
+        
     }
     
     html {
@@ -68,7 +70,7 @@ table {
 	}       
         
 	body, input, select, textarea {
-		color: #000000;
+		color: #ffffff;
 		font-family: "Source Sans Pro", sans-serif;
 		font-weight: 300;
 		font-size: 2rem;
@@ -107,8 +109,9 @@ label {
     border-color:white;
     border-top-width: 3px;
     border-bottom-width: 3px;
-    max-width: 100%;
-  
+    max-width: 200%;
+    background: rgb(0,0,0);
+    background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(207,166,147,1) 55%, rgba(50,44,92,1) 100%);
 }
 #header .content .inner {   
     transition: max-height 0.75s ease, padding 0.75s ease, opacity 0.325s ease-in-out;
@@ -119,11 +122,11 @@ label {
 }
 #header h1{
     font-size: 2rem;
-    color: #000000;
+    color: #fffbfb;
 
 }
 #header p{
-    color: #000000;
+    color: #ffffff;
 }
 #header nav ul {    
     display: flex;
@@ -207,6 +210,7 @@ input[type=text], select, textarea {
   margin-top: 6px;
   margin-bottom: 16px;
   resize: vertical;
+  font-size: 16px;
 }
 input[type=submit] {
   background-color:gray;
@@ -214,60 +218,61 @@ input[type=submit] {
   padding: 12px 20px;
   border: none;
   cursor: pointer;
+  font-size: 20px;
+  
 }
 input[type=submit]:hover {
   background-color: #474747;
 }
-img{
-  width:50%;
-  margin-top: 30px;
-  
-  float: left;
-  height: 657px;
-}
-.contact{
-    margin-top: 50px;
-    margin-bottom: 50px;
-    font-size:65px;
-}
+
+.contact {
+  margin-top: 50px;
+  margin-left: 200px;
+  font-size: 50px;
+    
+    
+    }
 .container {
   border-radius: 5px; 
   height: 100%;
   padding: 10px;
-  color: #000000;
+  color: #fff1f1;
+  margin-left: 600px;
 }
+
 .btmContainer{
   background-color: gray;
 }
 .cancel {
   background-color: gray;
   color: white;
-  padding: 20px 20px;
+  padding: 12px 20px;
   border: none;
   cursor: pointer;
   text-decoration: none;
   float: right;
+  font-size: 20px;
 }
  .cancel:hover {
   background-color: #474747;
 }
 .column {
-  float: left;
+  align-self: center;
   width: 50%;
   margin-top: 6px;
   padding: 20px;
 }
-.columnImg {
-  float: left;
-  width: 50%;
-   
-  border: 3px solid white;
-}
+
 .row:after {
   content: "";
   display: table;
   clear: both;
 }
+
+
+
+
+
 /*Start @media controls*/
 @media screen and (max-width: 1024px) {
   html{
