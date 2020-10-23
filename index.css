@@ -165,11 +165,7 @@ label {
 
 
 /*Start the Login Page Styling*/
-.loginPage {
-  border: 3px solid #3f3f3f;
-  align-content: center;
-  background-color: #3f3f3f;    
-}
+
 input[type=text], input[type=password] {
   width: 100%;
   padding: 12px 20px;
@@ -178,12 +174,13 @@ input[type=text], input[type=password] {
   border: 1px solid black;
   box-sizing: border-box;
   color: #000000;
+  font-size: 20px;
 }
-.btmContainer {
-  padding: 16px;  
-}
+
+
 .loginContainer{
     padding:16px;
+    
 }
 label.pass{
     color:#ffffff;
@@ -192,14 +189,12 @@ label.user{
     color: #ffffff;
 }
 span.psw {
-  float: right;
-   
+  margin-left: 20px;
+  margin-top: -200px;
+   font-size: 20px;
   color: #ffffff;
-}
-.loginCancel{
-  color: white;
-  text-decoration: none;
-}
+  }
+
 
 /*Start the Contact Page Styling*/
 
@@ -219,8 +214,7 @@ input[type=submit] {
   border: none;
   cursor: pointer;
   font-size: 20px;
-  
-}
+  }
 input[type=submit]:hover {
   background-color: #474747;
 }
@@ -240,9 +234,7 @@ input[type=submit]:hover {
   margin-left: 600px;
 }
 
-.btmContainer{
-  background-color: gray;
-}
+
 .cancel {
   background-color: gray;
   color: white;
@@ -278,7 +270,7 @@ input[type=submit]:hover {
   html{
     font-size: 16px;
   }
-	
+	git 
     
    #header .content {
     border-style: solid;
