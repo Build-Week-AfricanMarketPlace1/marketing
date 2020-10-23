@@ -278,11 +278,7 @@ input[type=submit]:hover {
   html{
     font-size: 16px;
   }
-	body {
-        background-image: url("img/sergey-pesterev-DWXR-nAbxCk-unsplash.jpg");
-        background-repeat: no-repeat;
-        background-size: 100% 150%;        
-    }  
+	
     
    #header .content {
     border-style: solid;
